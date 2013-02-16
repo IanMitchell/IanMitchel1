@@ -1,0 +1,12 @@
+source 'https://rubygems.org'
+
+# Server
+gem 'passenger'
+
+# Framework
+gem 'sinatra'
+
+# Views
+gem 'slim'
+gem 'sass'
+gem 'redcarpet'

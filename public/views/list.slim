@@ -1,0 +1,7 @@
+section id="content"
+  h1= title
+  - projects.each do |project|
+    h2
+      a(href='http://ianmitchel1.com/project/#{project}')= project.gsub '-', ' '
+  footer
+    a href="http://ianmitchel1.com/" &larr; Back to Homepage

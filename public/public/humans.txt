@@ -1,0 +1,11 @@
+/* TEAM */
+  Creator: Ian Mitchell
+  Site: http://ianmitchel1.com
+  Twitter: @IanMitchel1
+  From: Seattle, Washington
+
+/* SITE */
+  Github: https://github.com/IanMitchell/IanMitchel1
+  Components: Node.JS, Jade, SCSS, Coffeescript
+  Software: Sublime Text 2, Photoshop, Internet Explorer, Safari, Chrome, Firefox, Github for Mac, Terminal, Mou
+  OS: OSX: Mountain Lion, Windows 8
