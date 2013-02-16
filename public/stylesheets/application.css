@@ -29,9 +29,9 @@ a:hover, a:focus, a:active {
   .container {
     width: 300px;
     margin: auto; } }
-@media only screen and (min-width: 980px) {
+@media only screen and (min-width: 660px) {
   .wrapper {
-    width: 980px;
+    width: 660px;
     margin: auto; }
 
   .container {
@@ -43,7 +43,7 @@ a:hover, a:focus, a:active {
 @media only screen and (min-width: 320px) {
   #index {
     padding-top: 50px; } }
-@media only screen and (min-width: 980px) {
+@media only screen and (min-width: 660px) {
   #index {
     padding-top: 100px; } }
 #index h1 {
@@ -58,7 +58,7 @@ a:hover, a:focus, a:active {
     text-align: center;
     font-size: 48px;
     font-weight: 200; } }
-@media only screen and (min-width: 980px) {
+@media only screen and (min-width: 660px) {
   #index h1 {
     text-align: center;
     font-size: 100px;
@@ -88,7 +88,7 @@ a:hover, a:focus, a:active {
   #index #about {
     padding: 10px;
     max-width: 280px; } }
-@media only screen and (min-width: 980px) {
+@media only screen and (min-width: 660px) {
   #index #about {
     padding: 20px;
     max-width: 350px; } }
@@ -105,7 +105,7 @@ a:hover, a:focus, a:active {
   #content {
     width: 280px;
     margin: 50px auto 0px auto; } }
-@media only screen and (min-width: 980px) {
+@media only screen and (min-width: 660px) {
   #content {
     width: 650px;
     margin: 70px auto 0px auto; } }
