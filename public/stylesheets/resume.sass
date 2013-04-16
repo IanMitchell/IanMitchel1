@@ -107,7 +107,8 @@ section:last-child
 
 .sectionContent h2
   font-size: 1.5em
-  margin-bottom: 0px
+  margin-bottom: 3px
+  float: left
 
 .sectionContent article ul
   list-style: square
@@ -122,6 +123,14 @@ section:last-child
   font-size: 0.8em
   font-style: italic
   margin-bottom: 3px
+
+.subDetailsdate
+  padding-top: 3px
+  float: right
+
+.sectionContent p
+  clear: both
+
 
 .keySkills
   list-style-type: none
@@ -138,6 +147,22 @@ section:last-child
 @media all and (min-width: 602px) and (max-width: 800px)
   #headshot
     display: none
+
+  .sectionContent h2
+    font-size: 1.5em
+    margin-bottom: 3px
+    float: none
+
+  .subDetailsdate
+    padding-top: 0px
+    float: none
+    font-size: 0.8em
+    font-style: italic
+    margin-bottom: 3px
+
+  .sectionContent p
+    clear: both
+
 
 @media all and (max-width: 601px)
   #cv
@@ -161,6 +186,21 @@ section:last-child
     margin-left: -2px
     font-size: 1.25em
 
+  .sectionContent h2
+    font-size: 1.5em
+    margin-bottom: 3px
+    float: none
+
+  .subDetailsdate
+    padding-top: 0px
+    float: none
+    font-size: 0.8em
+    font-style: italic
+    margin-bottom: 3px
+
+  .sectionContent p
+    clear: both
+
 @media all and (max-width: 480px)
   .mainDetails
     padding: 15px 15px
@@ -175,9 +215,24 @@ section:last-child
     line-height: .8em
     margin-bottom: 4px
 
+  .sectionContent h2
+    font-size: 1.5em
+    margin-bottom: 3px
+    float: none
+
+  .subDetailsdate
+    padding-top: 0px
+    float: none
+    font-size: 0.8em
+    font-style: italic
+    margin-bottom: 3px
+
+  .sectionContent p
+    clear: both
+
 @media print
   #cv
-    width: 90%
+    //width: 90%
     margin-top: 0px
     font-size: 12px
     margin-bottom: 0px
