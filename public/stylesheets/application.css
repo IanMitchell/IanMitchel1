@@ -75,7 +75,7 @@ a:hover, a:focus, a:active {
   margin: 30px auto 0px auto;
   padding: 10px;
   border-radius: 10px;
-  background: #bbbbbb;
+  background: #e0e0e0;
   line-height: 150%; }
 #index .error {
   overflow: auto; }
