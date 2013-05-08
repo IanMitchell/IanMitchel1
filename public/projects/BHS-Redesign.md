@@ -1,4 +1,4 @@
-During my senior year at [Bainbridge High School (BHS)](http://www.bisd303.org/site/Domain/8), it was announced that the administration would be looking at upgrading all the district websites. Due to IT costs, they were considering outsourcing the design and development to a third party company. My Digital Design teacher, Ms. Rose, asked me to create a mockup to show to the committee in the hopes that they might ask students to create a design to use. I was given less than 24 hours to create a proposal mockup to present as an alternative to the companies in-house design.
+During my senior year at [Bainbridge High School (BHS)](http://www.bisd303.org/site/Domain/8), it was announced that the administration would be looking at upgrading all the district websites. Due to IT costs, they were considering outsourcing the design and development to a third party company. My Digital Design teacher, Ms. Rose, asked me to create a mockup to show to the committee in the hopes that they might ask students to create a design to use. I was given less than 24 hours to create a proposal mockup to present as an alternative to the company's in-house design.
 
 ### Design Decisions
 
@@ -10,7 +10,7 @@ One of the main changes was a rotating image header. Before, a random image was 
 
 #### Footer
 
-Another significant change was the footer -- instead of just having a copyright, I added in some of the most visited links for easier access. I also inserted some other sections that as a team we felt were underutilized and visited, such as the "Clubs" and "Outside of School" pages. By putting these links in the footer, I ensured they weren't intruding on the content while still being easier to access. 
+Another significant change was the footer -- instead of just having a copyright, I added in some of the most visited links for easier access. I also inserted some other sections that as a team we felt weren't getting enough traffic, such as the "Clubs" and "Outside of School" pages. By putting these links in the footer, I ensured they weren't intruding on the content while still being easier to access. 
 
 #### Mockup
 
