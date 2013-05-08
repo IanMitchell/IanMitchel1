@@ -2,13 +2,13 @@ My personal website is always evolving. Whenever a new technology comes out that
 
 ### Website Features
 
-When I first started thinking about what I wanted to showcase on the website, there was a lot of feature creep. Having a mini Seattle drawn on canvas (the weather would update dynamically based on what they actually were experiencing) was a neat idea, but hard to blend into the main website design. Plus, my artistic ability wasn't quite up to par for that. Other features I decided to veto was a list of books I was reading, music I liked, etc. I started with what you might call a portal, and slimmed down the idea to a portfolio. The website would mainly serve as a list of projects I was working on or had worked on in the past.
+When I first started thinking about what I wanted to showcase on the website, there was a lot of feature creep. Having a mini Seattle drawn on canvas (the weather would update dynamically based on what they actually were experiencing) was a neat idea, but hard to blend into the main website design. Other features I decided to veto was a list of books I was reading, music I liked, etc. I started with what you might call a portal, and slimmed down the idea to a portfolio. The website would mainly serve as a list of projects I was working on or had worked on in the past.
 
 After deciding on the features, I needed to decide on the technology powering it. Having a database seemed like overkill. I also wanted to try something I hadn't done before, so I decided to use a file based structure.
 
-I went with Node.js because it is a rising star in the web development community, and I didn't have any experience with it at the time. I felt that Ruby on Rails was a little too much overhead for the website I had planned.
+I initially went with Node.js because it is a rising star in the web development community, and I didn't have any experience with it at the time. I felt that Ruby on Rails was a little too much overhead for the website I had planned.
 
-**2/15/2013 Update:** Due to hosting issues, I have recently rewritten my website to use Sinatra. I absolutely love the framework for smaller websites! I still have my [original website repository up](https://github.com/ianmitchell/ianmitchel1-node), if you wish to see the code.
+Due to hosting issues, I later rewrote my website to use Sinatra. I absolutely love the framework for smaller websites! I still have my [original Node.js website repository up](https://github.com/ianmitchell/ianmitchel1-node), if you wish to see the code.
 
 ### Future Plans
 
