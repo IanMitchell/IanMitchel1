@@ -29,7 +29,7 @@ end
 get '/project/:name' do
   begin
     project = File.open(File.dirname(__FILE__) + '/projects/' + params[:name] + '.md').read
-    slim :project, :locals => { :title => params[:name], :content => markdown(project) }
+    slim :project, :locals => { :title => params[:name].gsub!('-', ' '), :content => markdown(project) }
   rescue
     slim :error404, :locals => { :title => '404 Not Found' }
   end

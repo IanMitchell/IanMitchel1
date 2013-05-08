@@ -1,0 +1,212 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Lucida Grande', 'Segoe UI', Arial, Helvetica, Verdana, MS Sans Serif;
+  color: #717276;
+  font-size: 11px;
+  background: url("background.png");
+}
+
+.wrapper {
+  width: 900px;
+  margin: auto;
+}
+
+#container {
+  background: #fff;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #08c;
+}
+
+a:hover,
+a:active,
+a:focus {
+  text-decoration: underline;
+  color: #08C;
+  border: 0px solid #ee1515;
+  
+}
+
+a img {
+  border: 0;
+}
+
+
+header {
+  padding-top: 40px;
+  display: block;
+  overflow: auto;
+}
+
+header h1 {
+  float: left;
+  margin-left: 15px;
+  margin-top: -20px;
+  margin-bottom: 10px;
+  font-size: 36px;
+  letter-spacing: -2px;
+  font-weight: normal;
+  text-shadow: #fff 0px 1px 2px;
+}
+
+header h1 a:link,
+header h1 a:visited,
+header h1 a:hover,
+header h1 a:focus,
+header h1 a:active {
+  color: #333;
+  text-decoration: none;
+}
+
+header ul {
+  float: right;
+  list-style: none;
+}
+
+header ul li {
+  font-size: 14px;
+  display: inline;
+  margin: 0px 20px 0px 0px;
+}
+
+header ul li a:link, 
+header ul li a:visited {
+  color: #333;
+}
+
+header ul li a:hover,
+header ul li a:active,
+header ul li a:focus {
+  color: #08c;
+  text-decoration: none;
+}
+
+header ul .current a:link,
+header ul .current a:visited,
+header ul .current a:hover,
+header ul .current a:active,
+header ul .current a:focus {
+  color: #999;
+  text-shadow: white 0 1px 0;
+}
+
+#banner {
+  overflow: auto;
+  background: url("header.jpg");
+  box-shadow: 0px 0px 15px #000 inset;
+
+  /* From Container */
+  padding: 15px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+#description {
+  float: left;
+  width: 45%;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+#banner #description h2 {
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 36px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-shadow: 0px 1px 2px #000;
+}
+
+#banner #description p {
+  line-height: 200%;
+  color: #bbb;
+  text-shadow: 0px 1px 2px #000;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+#banner #iphone {
+  float: right;
+  margin-right: 60px;
+}
+
+#banner #download {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#bottom {
+  overflow: auto;
+  display: block;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+#bottom .box {
+  width: 45%;
+  float: left;
+  margin-top: 20px;
+}
+
+#bottom .box:nth-child(2n) {
+  float: right;
+}
+
+#bottom .box img {
+  float: left;
+  margin-top: 3px;
+  margin-right: 10px;
+  width: 175px;
+  height: 175px;
+}
+
+#bottom .box .profile {
+  width: 125px;
+  height: 134px;
+}
+
+#bottom .box h4 {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+#bottom .box span {
+  display: block;
+  margin-bottom: 7px;
+  font-style: italic;
+}
+
+#bottom .box p {
+  line-height: 150%;
+}
+
+
+
+footer {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 10px;
+  color: #a1a1a1;
+  padding-bottom: 50px;
+
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.8);
+}
+
+footer ul {
+  padding-top: 7px;
+  list-style: none;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0px 10px 0px 10px;
+}
