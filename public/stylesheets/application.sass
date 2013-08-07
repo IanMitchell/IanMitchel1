@@ -22,6 +22,15 @@ a
   &:active
     text-decoration: underline
 
+pre
+  margin: 0px 0px 20px 20px
+  padding-left: 10px
+  overflow: auto
+  border-left: 2px solid #165788
+  color: #165788
+  font:
+    size: 11px
+    family: monaco, consolas
 
 .wrapper
   width: 100%
@@ -48,12 +57,127 @@ a
     width: 660px
     margin: auto
 
+
+
+#header
+  margin-top: 10px
+  padding: 5px
+  overflow: auto
+
+  h2
+    margin-top: 10px
+    float: left
+    font:
+      size: 36px
+      weight: 400
+
+    a
+      color: #000
+      text-decoration: none
+
+      &:hover,
+      &:active,
+      &:focus
+        border-bottom: 1px solid #000
+
+  nav
+    float: right
+
+    ul
+      list-style: none
+
+      li
+        float: left
+
+        a
+          padding: 18px 0px 5px 0px
+          margin: 0px 20px 0px 20px
+          display: block
+          text-decoration: none
+          font:
+            size: 22px
+
+          &:hover,
+          &:active,
+          &:focus
+            border-bottom: 1px solid #165788
+
+@media only screen and (min-width: 320px)
+  #header
+    h2
+      //display: block
+      float: none
+      text-align: center
+
+    nav
+      margin: 15px auto 0px auto
+      float: left
+      width: 100%
+
+      ul
+        width: 100%
+
+        li
+          height: 75px
+          text-align: center
+          float: none
+
+          a
+            border-bottom: 1px solid #fff
+
+@media only screen and (min-width: 660px)
+  #header
+    margin-top: 10px
+    padding: 5px
+    overflow: auto
+
+    h2
+      margin-top: 20px
+      float: left
+      font:
+        size: 36px
+        weight: 400
+
+      a
+        color: #000
+        text-decoration: none
+
+        &:hover,
+        &:active,
+        &:focus
+          border-bottom: 1px solid #000
+
+    nav
+      float: right
+      width: auto
+
+      ul
+        width: auto
+        list-style: none
+
+        li
+          float: left
+
+          a
+            padding: 18px 0px 5px 0px
+            display: block
+            text-decoration: none
+            font:
+              size: 22px
+
+            &:hover,
+            &:active,
+            &:focus
+              border-bottom: 1px solid #165788
+
+
+
 #index
   padding-top: 20px
 
 @media only screen and (min-width: 320px)
   #index
-    padding-top: 50px
+    padding-top: 30px
 
 @media only screen and (min-width: 660px)
   #index
@@ -61,53 +185,19 @@ a
 
 
 #index
+  img
+    float: left
+
   h1
     text-align: center
-    font:
-      size: 24px
-      weight: 200
-
-    a
-      &:link,
-      &:hover,
-      &:active,
-      &:focus,
-      &:visited
-        text-decoration: none
-        color: #000
-
-  @media only screen and (min-width: 320px)
-    h1
-      text-align: center
-      font:
-        size: 48px
-        weight: 200
-
-  @media only screen and (min-width: 660px)
-    h1
-      text-align: center
-      font:
-        size: 100px
-        weight: 200
-
-  nav
-    margin: 10px 0px 30px 0px
-    text-align: center
-    color: #aaa
-
-    a:first-child
-      margin-right: 10px
-
-    a:last-child
-      margin-left: 10px
-
 
   #about
-    margin: 30px auto 0px auto
+    margin: 0px auto 30px auto
     padding: 10px
-    border-radius: 10px
-    background: #e0e0e0
-    line-height: 150%
+    line-height: 250%
+
+    p
+      text-align: justify
 
   .error
     overflow: auto
@@ -119,38 +209,42 @@ a
       margin-top: 10px
 
   @media only screen and (min-width: 320px)
+    img
+      display: block
+      margin: auto
+      float: none
+
     #about
       padding: 10px
-      max-width: 280px
+
+    h1
+      margin-top: 10px
 
   @media only screen and (min-width: 660px)
+    img
+      float: left
+
     #about
-      padding: 20px
+      margin-top: -10px
+      padding-left: 30px
+      margin-bottom: 70px
       max-width: 350px
-
-  footer
-    margin: 20px auto 0px auto
-
-    p
-      text-align: center
-
-      font:
-        size: 12px
 
 
 
 #content
-  margin: 50px auto 0px auto
+  clear: both
+  margin: 30px auto 30px auto
 
 @media only screen and (min-width: 320px)
   #content
     width: 280px
-    margin: 50px auto 0px auto
+    margin: 30px auto 30px auto
 
 @media only screen and (min-width: 660px)
   #content
     width: 650px
-    margin: 70px auto 0px auto
+    margin: 50px auto 30px auto
 
 
 #content
@@ -171,30 +265,11 @@ a
       size: 28px
       weight: 200
 
-  footer
-    display: block
-    text-transform: capitalize
-    width: 100%
-    margin: 10px 0px 30px 0px
-
-    a
-      display: block
-      padding-top: 3px
-      width: 100%
-      border-top: 1px solid #ccc
-
-      &:link,
-      &:hover,
-      &:active,
-      &:focus,
-      &:visited
-        text-decoration: none
-        border-top: 1px solid #ccc
-
   p
     width: 100%
     line-height: 150%
     margin-bottom: 20px
+    text-align: justify
 
     &:first-child
       font-size: 18px
@@ -203,3 +278,16 @@ a
 
     &:first-child:first-line
       font-weight: bold
+
+
+
+
+footer
+  clear: both
+  margin: 70px auto 70px auto
+
+  p
+    text-align: center
+
+    font:
+      size: 12px

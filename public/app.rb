@@ -8,30 +8,30 @@ set :views, File.dirname(__FILE__) + '/views/'
 
 
 get '/' do
-  slim :index, :locals => { :title => 'Web Developer' }
+  slim :index, :locals => { title: 'Web Developer' }
 end
 
 get '/resume' do
-  slim :resume, :layout => false
+  slim :resume, layout: false
 end
 
 get '/projects/?' do
-  list = Dir.glob(File.dirname(__FILE__) + '/projects/*.md')
+  list = Dir.glob(File.dirname(__FILE__) + '/projects/*.md').sort_by{|c| File.stat(c).ctime}.reverse
 
   list.each do |file|
     file.gsub! File.dirname(__FILE__) + '/projects/', ''
     file.gsub! '.md', ' '
   end
 
-  slim :list, :locals => { :projects => list, :title => 'Projects' }
+  slim :list, :locals => { projects: list, title: 'Projects' }
 end
 
 get '/project/:name' do
   begin
     project = File.open(File.dirname(__FILE__) + '/projects/' + params[:name] + '.md').read
-    slim :project, :locals => { :title => params[:name].gsub!('-', ' '), :content => markdown(project) }
+    slim :project, :locals => { :title => params[:name].gsub('-', ' '), content: markdown(project) }
   rescue
-    slim :error404, :locals => { :title => '404 Not Found' }
+    slim :error404, :locals => { title: '404 Not Found' }
   end
 end
 
@@ -41,5 +41,5 @@ get '/stylesheets/*' do
 end
 
 not_found do
-  slim :error404, :locals => { :title => '404 Not Found' }
+  slim :error404, :locals => { title: '404 Not Found' }
 end
